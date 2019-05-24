@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" type="text/css" />
     <link rel="stylesheet" href="tool.js" type="text/js" />
     <link rel="stylesheet" href="style.css" type="text/css" />
-    <title> Frontend Milestone Project </title>
+    <title> The Monkees Official Site  </title>
 
 </head>
 
@@ -19,10 +19,14 @@
 <body style="background-color:#eaedf9;text-align:center;">
 
 
-    <nav class="navbar" id="navbar">
-        <ul class="row menu">
+<!---navbar-->
 
-            <li><img src="images/monkees-logo.png" alt="Logo"> </a></li>
+    <nav class="navbar" id="navbar">
+         <img src="images/monkees-logo.png" alt="Logo"> </a>
+         
+         <div class="navbar-nav mr-auto"></div>
+        
+        <ul class="row menu">
 
             <li><a class="active"> </a> <a href="#firstsection"> About </a></li>
 
@@ -33,7 +37,10 @@
             <li> <a class="active"> </a><a href="#fourthsection"> Contact</a></li>
 
         </ul>
+        </div>
     </nav>
+    
+    <!---navbar-mobile-->
 
     <nav class="navbar-mobile navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="#"><img src="images/monkees-logo.png" alt="Logo"></a>
@@ -44,10 +51,13 @@
             <ul class="navbar-nav mr-auto">
 
                 <li class="nav-item active">
-                    <a class="nav-link" href="#firstsection">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#firstsection">About <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#secondsection">Media</a>
+                    <a class="nav-link" href="#secondsection">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#thirdsection">Media</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#fourthsection">Contact</a>
@@ -92,23 +102,13 @@
                     </div>
                 </div>
 
-                <!---indicators  dot nav-->
+                <!---indicators-->
                 <ol class="carousel-indicators">
                     <li data-target="#my-carousel" data-slide-to="0"></li>
                     <li data-target="#my-carousel" data-slide-to="1"></li>
                     <li data-target="#my-carousel" data-slide-to="2"></li>
                 </ol>
 
-
-                <!--- controls next/prev--->
-                <a class="left carousel-control" href="#my-carousel" role="button" data-slide="prev">
-                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> 
-                   <span class="sr-only"> Previous </span>
-                   </a>
-                <a class="left carousel-control" href="#my-carousel" role="button" data-slide="prev">
-                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                   <span class="sr-only"> Previous </span>
-              </a>
             </div>
         </div>
 
@@ -117,7 +117,7 @@
 
 
 
-    <!-----info---->
+    <!-----info block---->
 
 
 
@@ -210,11 +210,14 @@
 
 
     <hr>
+    
+     <!--- Gallery Collage--->
+                
 
     <div class="grid jumbotron">
         <div class="row" id="secondsection" style="text-align:center;">
             <div class="col-12">
-                <h2> <u> Gallery </u> </h2>
+                <h2> Gallery  </h2>
 
                 <div class="image-container">
 
@@ -237,17 +240,17 @@
                         </div>
                         <div class="col-lg-3 col-md-4 col-6">
                             <a href="images/group-shot.jpg" target="_blank" class="d-block mb-4 h-100 zoom">
-            <img class="img-fluid img-thumbnail" src="images/group-shot.jpg" alt=" Mike Nesbitt">
+            <img class="img-fluid img-thumbnail" src="images/group-shot.jpg" alt="Group">
           </a>
                         </div>
                         <div class="col-lg-3 col-md-4 col-6">
-                            <a href="images/on-set.jpg" target="_blank" class="d-block mb-4 h-100 zoom">
-            <img class="img-fluid img-thumbnail" src="images/on-set.jpg" alt="On Set">
+                            <a href="images/indian-pic.jpg" target="_blank" class="d-block mb-4 h-100 zoom">
+            <img class="img-fluid img-thumbnail" src="images/indian-pic.jpg" alt="On Set">
           </a>
                         </div>
                         <div class="col-lg-3 col-md-4 col-6">
-                            <a href="images/daydreamer.jpg" target="_blank" class="d-block mb-4 h-100 zoom">
-            <img class="img-fluid img-thumbnail" src="images/daydreamer.jpg" alt="Daydream Believer">
+                            <a href="images/promo.jpg" target="_blank" class="d-block mb-4 h-100 zoom">
+            <img class="img-fluid img-thumbnail" src="images/promo.jpg" alt="Promo">
           </a>
                         </div>
                         <div class="col-lg-3 col-md-4 col-6">
@@ -261,8 +264,13 @@
           </a>
                         </div>
                         <div class="col-lg-3 col-md-4 col-6">
-                            <a href="images/Candid.jpg" target="_blank" class="d-block mb-4 h-100 zoom">
-            <img class="img-fluid img-thumbnail" src="images/Candid.jpg" alt="Candid Shot">
+                            <a href="images/tv pic.jpg" target="_blank" class="d-block mb-4 h-100 zoom">
+            <img class="img-fluid img-thumbnail" src="images/tv pic.jpg" alt="TV Shot">
+          </a>
+                        </div>
+                           <div class="col-lg-3 col-md-4 col-6">
+                            <a href="images/cube.jpg" target="_blank" class="d-block mb-4 h-100 zoom">
+            <img class="img-fluid img-thumbnail" src="images/cube.jpg" alt="Cube Shot">
           </a>
                         </div>
                     </div>
@@ -271,9 +279,11 @@
         </div>
     </div>
 
+
+
     <hr>
     <div class="container video-container" id="thirdsection" style="text-align:center;">
-        <h2>  <u> Monkees in the Media </u></h2>
+        <h2>  Monkees in the Media </h2>
         <div class=" row ">
             <div class="col-sm-12 ">
                 <div class="html5-video-container" data-layer="0">
@@ -283,7 +293,6 @@
                 </div>
             </div>
         </div>
-
     </div>
 
 
