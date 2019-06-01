@@ -1,4 +1,4 @@
-The Monkees Official Website - Jack O’Neill
+The Monkees Website - Jack O’Neill
 
 - This project was my first milestone project featuring skills and techniques attained through the first several modules of the course. The aim of the project was to create a intuitive, user-friendly and bespoke website for a band (in this case, The Monkees) in order to show case their members, music and brand in the hopes of resonating with both older and newer fans, hypothetically gaining them exposure. As such, I aimed to present the band’s music, style and characteristics through a website designed to be bright and appealing yet concentrated on simplicity of use as well as building a positive emotional connection with the user.  
 
@@ -12,7 +12,7 @@ Technologies
 -Bootstrap (3.3.7)
 
 
-UX
+<u> UX </u>
 
 - The requirements were to produce a website to display and increase engagement for the musical group the Monkees by targeting older fans of the group as well attracting potential new fans. As such, I aimed to produce a website that highlighted the aesthetic of the Monkees to resonate with long time fans, displayed on a page that was simple and easy to navigate. However, I aimed to embrace the current stylistic and functional uses of HTML and CSS as to give the website a fresh and contemporary look. I used a single scrolling page in my design because I wanted to relay a sense of simplicity and 
 
