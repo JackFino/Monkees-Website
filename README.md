@@ -25,7 +25,7 @@ The requirements were to produce a website to display and increase engagement fo
 
 <b>User stories</b>
 
-- User wants to check for information regarding the band recent endeavors. User finds homepage. User immediately made aware of the resources contained within the site.
+-User wants to check for information regarding the band recent endeavors. User finds homepage. User immediately made aware of the resources contained within the site.
 
 -User wants to check recent photos and videos from the band. User clicks on Media tab, discovers a variety of band images. User also finds video to nostalgic song from the band. User appreciates watching the videos and checking out the images on the page.
 
@@ -60,14 +60,13 @@ Underneath, I included a short synopsis of the band and individual mini biograph
 
 -Code tested in the W3C HTML and CSS validation service. I also parsed my CSS through https://autoprefixer.github.io/ to ensure it is as semantic and close to intended  function as possible. 
 
--Having deployed the site on Github pages upon completion, I was able to view it as intended in both large desktop viewpoint as well as a variety of mobile screen sizes, which, due to the media queries I implemented in the code rendered nicely as intended in these variations. 
+- I used the Web Dev site to run an analysis of my site, the results of which can be seen here. https://lighthouse-dot-webdotdevsite.appspot.com/lh/html?url=https://jackfino.github.io/Monkees-Website/#performance
 
-The user stories I outlined pertained largely to the 
+Throughout the process of designing my website, I pushed my code onto Github pages on several increments. However, as certain aspects of the overall design of the project were altered over time, I don't think the the individual pushes were as clear, frequent nor as uniform as I would have wanted them to be. I would attribute this to a somewhat deviated planning process and will be something I will strive to work more closely upon in future development.
 
+- Having deployed the site on Github pages upon completion, I was able to view it as intended in both large desktop viewpoint as well as a variety of mobile screen sizes, which, due to the media queries I implemented in the code rendered nicely as intended in these iterations. 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-
+- The user stories I outlined pertained largely to the functionality of the website and in its ability to provide for the user the necessary functions.
 
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
@@ -78,9 +77,6 @@ Try to submit the form with an invalid email address and verify that a relevant 
 Try to submit the form with all inputs valid and verify that a success message appears.
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 <hr>
 
@@ -88,7 +84,6 @@ If this section grows too long, you may want to split it off into a separate fil
 
 This project was written in Cloud9 and was deployed via Github pages 
 
-Throughout the process of designing my website, I pushed my code onto Github pages on several increments. However, as certain aspects of the overall design of the project were altered over time, I don't think the the individual pushes were as clear, frequent nor as uniform as I would have wanted them to be. I would attribute this to a somewhat deviated planning process and will be something I will strive to work more closely upon in future development.
 
 <hr>
 
