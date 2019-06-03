@@ -68,21 +68,12 @@ Throughout the process of designing my website, I pushed my code onto Github pag
 
 - The user stories I outlined pertained largely to the functionality of the website and in its ability to provide for the user the necessary functions.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
 
 <hr>
 
 <b>Deployment</b>
 
-This project was written in Cloud9 and was deployed via Github pages 
+This project was written in Cloud9 and was deployed via Github pages. There are no diffrences between the deployed version and the developed version. There are no deperate github branches either.   
 
 
 <hr>
