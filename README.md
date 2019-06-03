@@ -3,7 +3,7 @@
 - This project was my first milestone project featuring skills and techniques attained through the first several modules of the course. The aim of the project was to create a intuitive, user-friendly and bespoke website for a band (in this case, The Monkees) in order to show case their members, music and brand in the hopes of resonating with both older and newer fans, hypothetically gaining them exposure. As such, I aimed to present the band’s music, style and characteristics through a website designed to be bright and appealing yet concentrated on simplicity of use as well as building a positive emotional connection with the user.  
 
 
-This page was created for educational purposes only and the entirety of itscontents belongs to the artists. 
+This page was created for educational purposes only and the entirety of its contents belongs to the artists. 
 
 <hr>
 
